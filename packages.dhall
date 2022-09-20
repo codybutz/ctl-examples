@@ -307,6 +307,7 @@ let additions =
           , "foldable-traversable"
           , "foreign"
           , "foreign-object"
+          , "heterogeneous"
           , "http-methods"
           , "identity"
           , "integers"
@@ -363,7 +364,7 @@ let additions =
           , "variant"
           ]
         , repo = "https://github.com/Plutonomicon/cardano-transaction-lib.git"
-        , version = "0d5e2ae617b171ee2b6f61e2d7e99e39fa70eeb1"
+        , version = "b2c833aa8ab331806f81b66f0657eb5ef414b1f7"
         }
       }
 in upstream // additions
